@@ -15,7 +15,7 @@ export default function Auth({ backgroundUrl }: AuthProps) {
   const [fullName, setFullName] = useState('');
   const [error, setError] = useState<string | null>(null);
 
-  const defaultBg = "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&q=80&w=1920";
+  const defaultBg = "https://69b3b182d5fa7152051c5893.imgix.net/Gia%20%C4%90%C3%ACnh/Voi.jpg";
 
   const handleAuth = async (e: React.FormEvent) => {
     e.preventDefault();
