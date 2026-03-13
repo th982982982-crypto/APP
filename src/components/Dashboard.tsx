@@ -735,7 +735,7 @@ export default function Dashboard() {
               initial={{ opacity: 0, scale: 0.9, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 20 }}
-              className="relative w-full max-w-2xl liquid-glass p-6 md:p-10 overflow-y-auto max-h-[90vh] scrollbar-hide"
+              className="relative w-full max-w-2xl bg-white/[0.03] backdrop-blur-3xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.3)] rounded-[3rem] p-6 md:p-10 overflow-y-auto max-h-[80vh] transition-all duration-500"
             >
               <div className="flex items-center justify-between mb-10">
                 <h3 className="text-3xl font-black text-white tracking-tight">Thêm giao dịch mới</h3>
@@ -947,7 +947,7 @@ export default function Dashboard() {
               initial={{ opacity: 0, scale: 0.9, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 20 }}
-              className="relative w-full max-w-md liquid-glass p-6 md:p-10 overflow-y-auto max-h-[90vh] scrollbar-hide"
+              className="relative w-full max-w-md bg-white/[0.03] backdrop-blur-3xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.3)] rounded-[3rem] p-6 md:p-10 overflow-y-auto max-h-[80vh] transition-all duration-500"
             >
               <div className="flex items-center justify-between mb-10">
                 <h3 className="text-2xl font-black text-white tracking-tight">Tạo ví mới</h3>
@@ -1042,7 +1042,7 @@ export default function Dashboard() {
               initial={{ opacity: 0, scale: 0.9, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 20 }}
-              className="relative w-full max-w-md liquid-glass p-6 md:p-10 overflow-y-auto max-h-[90vh] scrollbar-hide"
+              className="relative w-full max-w-md bg-white/[0.03] backdrop-blur-3xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.3)] rounded-[3rem] p-6 md:p-10 overflow-y-auto max-h-[80vh] transition-all duration-500"
             >
               <div className="flex items-center justify-between mb-8">
                 <h3 className="text-2xl font-black text-white tracking-tight">Thêm hạng mục</h3>
