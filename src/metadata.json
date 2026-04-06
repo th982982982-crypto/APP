@@ -1,0 +1,5 @@
+{
+  "name": "Gia đình Voi",
+  "description": "Ứng dụng quản lý tài chính cá nhân với tính năng đăng ký, đăng nhập, quản lý giao dịch và bảng điều khiển admin.",
+  "requestFramePermissions": []
+}
